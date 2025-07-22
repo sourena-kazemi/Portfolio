@@ -1,12 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import { BrowserRouter, Routes } from 'react-router'
+import { BrowserRouter, Routes,Route } from 'react-router'
+import Home from './pages/home'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
   <Routes>
-    <Route index></Route>
+    <Route index element={<Home/>}></Route>
   </Routes>
   </BrowserRouter>,
 )

@@ -1,1 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Lexend:wght@100..900&display=swap');
 @import "tailwindcss";
+
+@theme{
+    --color-purple:oklch(0.85 0.09 303.09);
+    --color-yellow:oklch(0.84 0.16 86.87);
+    --color-black:oklch(0.2 0.04 301.28);
+    --shadow: 4px 4px 0 0 oklch(0.2 0.04 301.28);
+    --font-header:"Lexend Giga",system-ui,sans-serif;
+    --font-text:"Lexend",system-ui,sans-serif;
+}
+
+*{
+    color:var(--color-black);
+    font-family: var(--font-text);
+}
+html,body,#root{
+    overflow-x:hidden;
+    height:100%;
+}
+#root{
+    position: relative;
+}
