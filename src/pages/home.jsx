@@ -43,7 +43,7 @@ function Home() {
               What I've been up to
             </p>
           </div>
-          <div className="mt-8 space-y-8 lg:space-y-16 2xl:space-y-32">
+          <div className="mt-8 space-y-8 2xl:mt-16 lg:space-y-16 2xl:space-y-32">
             <div className="flex flex-col-reverse gap-4 lg:flex-row lg:items-center">
               <div className="space-y-2">
                 <h3 className="!font-header font-bold text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl">
@@ -77,6 +77,58 @@ function Home() {
               </div>
               <div className="bg-purple shadow border-2 border-black w-full h-50 lg:max-w-1/2"></div>
             </div>
+          </div>
+        </div>
+
+        <div className="xl:mx-auto bg-yellow border-2 border-black shadow w-full space-y-4 md:flex md:items-start md:justify-between md:gap-8 px-4 py-8 xl:w-4/5">
+          <div className="h-50 w-full max-w-lg border-2 border-black bg-purple mx-auto"></div>
+          <div className="space-y-4">
+            <h2 className="!font-header font-bold text-2xl sm:text-3xl xl:text-4xl 2xl:text-5xl">
+              Sourena Kazemi
+            </h2>
+            <div className="flex gap-2">
+              <div className="border-2 border-black w-24 h-20 flex items-center justify-center bg-white/50">
+                <p className="flex flex-col font-bold">
+                  <span className="text-lg">4+</span>
+                  <span className="!text-black/60">Years</span>
+                </p>
+              </div>
+              <div className="border-2 border-black w-24 h-20 flex items-center justify-center bg-white/50">
+                <p className="flex flex-col font-bold">
+                  <span className="text-lg">10+</span>
+                  <span className="!text-black/60">Projects</span>
+                </p>
+              </div>
+            </div>
+            <p className="!text-black/70 group md:text-lg 2xl:text-xl text-balance">
+              Hi, I'm Sourena. My journey into coding began six years ago with
+              simple games and tiny tools. Today, I'm a{" "}
+              <span className="!text-black/70 group-hover:!text-black font-bold transition-colors">
+                fullstack developer
+              </span>{" "}
+              who turns ideas into beautiful UI designs in{" "}
+              <span className="!text-black/70 group-hover:!text-black font-bold transition-colors">
+                Figma
+              </span>
+              , builds smooth and responsive frontends with{" "}
+              <span className="!text-black/70 group-hover:!text-black font-bold transition-colors">
+                Typescript
+              </span>
+              ,{" "}
+              <span className="!text-black/70 group-hover:!text-black font-bold transition-colors">
+                React
+              </span>
+              , and{" "}
+              <span className="!text-black/70 group-hover:!text-black font-bold transition-colors">
+                Tailwind
+              </span>
+              , and powers them with robust{" "}
+              <span className="!text-black/70 group-hover:!text-black font-bold transition-colors">
+                Go
+              </span>{" "}
+              servers.
+            </p>
+            <Button>Get In Touch</Button>
           </div>
         </div>
       </main>
