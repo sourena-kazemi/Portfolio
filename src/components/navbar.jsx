@@ -14,13 +14,13 @@ function Navbar() {
           Menu
         </Button>
         <div className="hidden sm:flex sm:justify-around sm:grow">
-          <a href="#" className="font-bold">
+          <a href="#" className="font-bold md:text-lg 2xl:text-xl">
             Projects
           </a>
-          <a href="#" className="font-bold">
+          <a href="#" className="font-bold md:text-lg 2xl:text-xl">
             About
           </a>
-          <a href="#" className="font-bold">
+          <a href="#" className="font-bold md:text-lg 2xl:text-xl">
             Contact
           </a>
         </div>
