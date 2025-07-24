@@ -122,13 +122,64 @@ function Home() {
               <span className="!text-black/70 group-hover:!text-black font-bold transition-colors">
                 Tailwind
               </span>
-              , and powers them with robust{" "}
+              , powered behind the scenes by efficient{" "}
               <span className="!text-black/70 group-hover:!text-black font-bold transition-colors">
                 Go
               </span>{" "}
-              servers.
+              services.
             </p>
             <Button>Get In Touch</Button>
+          </div>
+        </div>
+
+        <div className="xl:mx-auto bg-purple border-2 border-black shadow w-full space-y-4 md:space-y-8 px-4 py-8 xl:w-4/5 -mt-8 md:-mt-16 xl:-mt-32">
+          <h2 className="font-bold !font-header text-2xl sm:text-3xl xl:text-4xl 2xl:text-5xl">
+            Where To Find Me?
+          </h2>
+          <div className="md:flex md:gap-4 md:justify-center lg:text-lg">
+            <div className="space-y-4 md:grow">
+              <div className="border-2 border-black px-4 py-1 flex items-center gap-2 md:max-w-xl md:ml-auto @container">
+                <img
+                  src="/mail.svg"
+                  alt="email icon"
+                  className="border-2 border-black p-0.5 hidden @2xs:block"
+                />
+                <p className="font-bold @2xs:font-normal">
+                  kazemisourena@gmail.com
+                </p>
+              </div>
+              <div className="border-2 border-black px-4 py-1 flex items-center gap-2 md:max-w-xl md:ml-auto">
+                <img
+                  src="/linkedin.svg"
+                  alt="email icon"
+                  className="border-2 border-black p-0.5"
+                />
+                <a href="#">LinkedIn</a>
+              </div>
+            </div>
+            <div className="space-y-4 md:grow mt-4 md:mt-0">
+              <div className="border-2 border-black px-4 py-1 flex items-center gap-2 md:max-w-xl">
+                <img
+                  src="/github.svg"
+                  alt="email icon"
+                  className="border-2 border-black p-0.5"
+                />
+                <a href="#">Github</a>
+              </div>
+              <div className="border-2 border-black px-4 py-1 flex items-center gap-2 md:max-w-xl">
+                <img
+                  src="/blog.svg"
+                  alt="email icon"
+                  className="border-2 border-black p-0.5"
+                />
+                <a href="#">Blog</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-center -mt-8 md:-mt-16 xl:-mt-32 lg:mb-8 xl:mb-16">
+          <div className="self-center scale-[80%] sm:scale-90 lg:scale-100 xl:scale-110 2xl:scale-[120%]">
+            <KeyboardSvg />
           </div>
         </div>
       </main>
