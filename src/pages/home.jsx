@@ -46,9 +46,14 @@ function Home() {
           <div className="mt-8 space-y-8 2xl:mt-16 lg:space-y-16 2xl:space-y-32">
             <div className="flex flex-col-reverse gap-4 lg:flex-row lg:items-center">
               <div className="space-y-2">
-                <h3 className="!font-header font-bold text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl">
-                  Project title
-                </h3>
+                <div className="space-y-1">
+                  <h3 className="!font-header font-bold text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl">
+                    Project title
+                  </h3>
+                  <p className="!text-black/60 md:text-lg 2xl:text-xl">
+                    project goal
+                  </p>
+                </div>
                 <div className="flex gap-2">
                   <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors">
                     tag1
@@ -66,21 +71,17 @@ function Home() {
                   doloremque, ad cumque sapiente ducimus, voluptatibus animi
                   atque est odio harum quos voluptates. Facilis!
                 </p>
-                <a href="#" className="font-bold xl:text-lg">
-                  Explore More{" "}
-                  <img
-                    src="/arrow.svg"
-                    alt="arrow icon"
-                    className="inline ml-1"
-                  />
-                </a>
+                <div className="flex gap-4">
+                  <Button>Button 1</Button>
+                  <Button>Button 2</Button>
+                </div>
               </div>
               <div className="bg-purple shadow border-2 border-black w-full h-50 lg:max-w-1/2"></div>
             </div>
           </div>
         </div>
 
-        <div className="xl:mx-auto bg-yellow border-2 border-black shadow w-full space-y-4 md:flex md:items-start md:justify-between md:gap-8 px-4 py-8 xl:w-4/5">
+        <div className="xl:mx-auto bg-yellow border-2 border-black shadow w-full space-y-4 md:flex md:items-start md:justify-between md:gap-8 px-4 py-8 xl:w-2/3">
           <div className="h-50 w-full max-w-lg border-2 border-black bg-purple mx-auto"></div>
           <div className="space-y-4">
             <h2 className="!font-header font-bold text-2xl sm:text-3xl xl:text-4xl 2xl:text-5xl">
@@ -132,7 +133,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="xl:mx-auto bg-purple border-2 border-black shadow w-full space-y-4 md:space-y-8 px-4 py-8 xl:w-4/5 -mt-8 md:-mt-16 xl:-mt-32">
+        <div className="xl:mx-auto bg-purple border-2 border-black shadow w-full space-y-4 md:space-y-8 px-4 py-8 xl:w-2/3 -mt-8 md:-mt-16 xl:-mt-32">
           <h2 className="font-bold !font-header text-2xl sm:text-3xl xl:text-4xl 2xl:text-5xl">
             Where To Find Me?
           </h2>
