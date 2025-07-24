@@ -1,4 +1,4 @@
-import Button from "../components/button";
+import Link from "../components/link";
 import KeyboardSvg from "../components/keyboard";
 import Navbar from "../components/navbar";
 
@@ -25,8 +25,8 @@ function Home() {
               </span>
             </p>
             <div className="flex gap-4">
-              <Button className="bg-yellow ">Contact Me</Button>
-              <Button>Projects</Button>
+              <Link className="bg-yellow ">Contact Me</Link>
+              <Link>Projects</Link>
             </div>
           </div>
           <div className="self-center scale-[80%] sm:scale-90 lg:scale-100 xl:scale-110 2xl:scale-[120%]">
@@ -43,12 +43,12 @@ function Home() {
               What I've been up to
             </p>
           </div>
-          <div className="mt-8 space-y-8 2xl:mt-16 lg:space-y-16 2xl:space-y-32">
+          <div className="mt-8 space-y-8 2xl:mt-16 lg:space-y-16 ">
             <div className="flex flex-col-reverse gap-4 lg:flex-row lg:items-center">
               <div className="space-y-2">
                 <div className="space-y-1">
                   <h3 className="!font-header font-bold text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl">
-                    Project title
+                    Norasil
                   </h3>
                   <p className="!text-black/60 md:text-lg 2xl:text-xl">
                     project goal
@@ -71,9 +71,185 @@ function Home() {
                   doloremque, ad cumque sapiente ducimus, voluptatibus animi
                   atque est odio harum quos voluptates. Facilis!
                 </p>
-                <div className="flex gap-4">
-                  <Button>Button 1</Button>
-                  <Button>Button 2</Button>
+                <div className="flex gap-4 flex-wrap">
+                  <Link>Live Website</Link>
+                  <Link>Figma Design</Link>
+                </div>
+              </div>
+              <div className="bg-purple shadow border-2 border-black w-full h-50 lg:max-w-1/2"></div>
+            </div>
+
+            <div className="flex flex-col-reverse gap-4 lg:flex-row lg:items-center">
+              <div className="space-y-2">
+                <div className="space-y-1">
+                  <h3 className="!font-header font-bold text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl">
+                    Shorl
+                  </h3>
+                  <p className="!text-black/60 md:text-lg 2xl:text-xl">
+                    project goal
+                  </p>
+                </div>
+                <div className="flex gap-2">
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors">
+                    tag1
+                  </p>
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors">
+                    tag2
+                  </p>
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors ">
+                    tag3
+                  </p>
+                </div>
+                <p className="!text-black/60 group text-balance md:text-lg 2xl:text-xl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia reiciendis eos dolorum, earum deserunt autem cum
+                  doloremque, ad cumque sapiente ducimus, voluptatibus animi
+                  atque est odio harum quos voluptates. Facilis!
+                </p>
+                <div className="flex gap-4 flex-wrap">
+                  <Link>Code On Github</Link>
+                  <Link>?</Link>
+                </div>
+              </div>
+              <div className="bg-purple shadow border-2 border-black w-full h-50 lg:max-w-1/2"></div>
+            </div>
+
+            <div className="flex flex-col-reverse gap-4 lg:flex-row lg:items-center">
+              <div className="space-y-2">
+                <div className="space-y-1">
+                  <h3 className="!font-header font-bold text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl">
+                    Concurro
+                  </h3>
+                  <p className="!text-black/60 md:text-lg 2xl:text-xl">
+                    project goal
+                  </p>
+                </div>
+                <div className="flex gap-2">
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors">
+                    tag1
+                  </p>
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors">
+                    tag2
+                  </p>
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors ">
+                    tag3
+                  </p>
+                </div>
+                <p className="!text-black/60 group text-balance md:text-lg 2xl:text-xl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia reiciendis eos dolorum, earum deserunt autem cum
+                  doloremque, ad cumque sapiente ducimus, voluptatibus animi
+                  atque est odio harum quos voluptates. Facilis!
+                </p>
+                <div className="flex gap-4 flex-wrap">
+                  <Link>Install Application</Link>
+                  <Link>Code On Github</Link>
+                </div>
+              </div>
+              <div className="bg-purple shadow border-2 border-black w-full h-50 lg:max-w-1/2"></div>
+            </div>
+
+            <div className="flex flex-col-reverse gap-4 lg:flex-row lg:items-center">
+              <div className="space-y-2">
+                <div className="space-y-1">
+                  <h3 className="!font-header font-bold text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl">
+                    Open Studio
+                  </h3>
+                  <p className="!text-black/60 md:text-lg 2xl:text-xl">
+                    project goal
+                  </p>
+                </div>
+                <div className="flex gap-2">
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors">
+                    tag1
+                  </p>
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors">
+                    tag2
+                  </p>
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors ">
+                    tag3
+                  </p>
+                </div>
+                <p className="!text-black/60 group text-balance md:text-lg 2xl:text-xl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia reiciendis eos dolorum, earum deserunt autem cum
+                  doloremque, ad cumque sapiente ducimus, voluptatibus animi
+                  atque est odio harum quos voluptates. Facilis!
+                </p>
+                <div className="flex gap-4 flex-wrap">
+                  <Link>Live Website</Link>
+                  <Link>Code On Github</Link>
+                  <Link>Figma Design</Link>
+                </div>
+              </div>
+              <div className="bg-purple shadow border-2 border-black w-full h-50 lg:max-w-1/2"></div>
+            </div>
+
+            <div className="flex flex-col-reverse gap-4 lg:flex-row lg:items-center">
+              <div className="space-y-2">
+                <div className="space-y-1">
+                  <h3 className="!font-header font-bold text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl">
+                    Wikilator
+                  </h3>
+                  <p className="!text-black/60 md:text-lg 2xl:text-xl">
+                    project goal
+                  </p>
+                </div>
+                <div className="flex gap-2">
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors">
+                    tag1
+                  </p>
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors">
+                    tag2
+                  </p>
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors ">
+                    tag3
+                  </p>
+                </div>
+                <p className="!text-black/60 group text-balance md:text-lg 2xl:text-xl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia reiciendis eos dolorum, earum deserunt autem cum
+                  doloremque, ad cumque sapiente ducimus, voluptatibus animi
+                  atque est odio harum quos voluptates. Facilis!
+                </p>
+                <div className="flex gap-4 flex-wrap">
+                  <Link>Code On Github</Link>
+                  <Link>Figma Design</Link>
+                </div>
+              </div>
+              <div className="bg-purple shadow border-2 border-black w-full h-50 lg:max-w-1/2"></div>
+            </div>
+
+            <div className="flex flex-col-reverse gap-4 lg:flex-row lg:items-center">
+              <div className="space-y-2">
+                <div className="space-y-1">
+                  <h3 className="!font-header font-bold text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl">
+                    Wocaby
+                  </h3>
+                  <p className="!text-black/60 md:text-lg 2xl:text-xl">
+                    project goal
+                  </p>
+                </div>
+                <div className="flex gap-2">
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors">
+                    tag1
+                  </p>
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors">
+                    tag2
+                  </p>
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors ">
+                    tag3
+                  </p>
+                </div>
+                <p className="!text-black/60 group text-balance md:text-lg 2xl:text-xl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia reiciendis eos dolorum, earum deserunt autem cum
+                  doloremque, ad cumque sapiente ducimus, voluptatibus animi
+                  atque est odio harum quos voluptates. Facilis!
+                </p>
+                <div className="flex gap-4 flex-wrap">
+                  <Link>Code On Github</Link>
+                  <Link>Figma Design</Link>
                 </div>
               </div>
               <div className="bg-purple shadow border-2 border-black w-full h-50 lg:max-w-1/2"></div>
@@ -129,7 +305,7 @@ function Home() {
               </span>{" "}
               services.
             </p>
-            <Button>Get In Touch</Button>
+            <Link>Get In Touch</Link>
           </div>
         </div>
 
