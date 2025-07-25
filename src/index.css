@@ -6,6 +6,7 @@
     --color-yellow:oklch(0.84 0.16 86.87);
     --color-black:oklch(0.2 0.04 301.28);
     --shadow: 4px 4px 0 0 oklch(0.2 0.04 301.28);
+    --shadow-hover: 6px 6px 0 0 oklch(0.2 0.04 301.28);
     --font-header:"Lexend Giga",system-ui,sans-serif;
     --font-text:"Lexend",system-ui,sans-serif;
 }

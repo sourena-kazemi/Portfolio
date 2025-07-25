@@ -18,6 +18,7 @@ function KeyboardSvg(props) {
       />
       <path
         fill="#F7C337"
+        className="group-hover:fill-purple transition-colors duration-300"
         stroke="#191125"
         strokeLinecap="round"
         strokeMiterlimit={3.964}
@@ -26,6 +27,7 @@ function KeyboardSvg(props) {
       />
       <path
         fill="#D9BFFF"
+        className="group-hover:fill-yellow transition-colors duration-300"
         stroke="#191125"
         strokeLinecap="round"
         strokeMiterlimit={3.964}
@@ -34,6 +36,7 @@ function KeyboardSvg(props) {
       />
       <path
         fill="#F7C337"
+        className="group-hover:fill-purple transition-colors duration-300"
         stroke="#191125"
         strokeLinecap="round"
         strokeMiterlimit={3.964}
@@ -42,6 +45,7 @@ function KeyboardSvg(props) {
       />
       <path
         fill="#D9BFFF"
+        className="group-hover:fill-yellow transition-colors duration-300"
         stroke="#191125"
         strokeLinecap="round"
         strokeMiterlimit={3.964}
@@ -58,6 +62,7 @@ function KeyboardSvg(props) {
       />
       <path
         fill="#D9BFFF"
+        className="group-hover:fill-yellow transition-colors duration-300"
         stroke="#191125"
         strokeLinecap="round"
         strokeMiterlimit={3.964}
@@ -74,6 +79,7 @@ function KeyboardSvg(props) {
       />
       <path
         fill="#D9BFFF"
+        className="group-hover:fill-yellow transition-colors duration-300"
         stroke="#191125"
         strokeLinecap="round"
         strokeMiterlimit={3.964}
@@ -90,6 +96,7 @@ function KeyboardSvg(props) {
       />
       <path
         fill="#F7C337"
+        className="group-hover:fill-purple transition-colors duration-300"
         stroke="#191125"
         strokeLinecap="round"
         strokeMiterlimit={3.964}
@@ -106,6 +113,7 @@ function KeyboardSvg(props) {
       />
       <path
         fill="#F7C337"
+        className="group-hover:fill-purple transition-colors duration-300"
         stroke="#191125"
         strokeLinecap="round"
         strokeMiterlimit={3.964}
@@ -114,6 +122,7 @@ function KeyboardSvg(props) {
       />
       <path
         fill="#D9BFFF"
+        className="group-hover:fill-yellow transition-colors duration-300"
         stroke="#191125"
         strokeLinecap="round"
         strokeMiterlimit={3.964}
@@ -130,6 +139,7 @@ function KeyboardSvg(props) {
       />
       <path
         fill="#D9BFFF"
+        className="group-hover:fill-yellow transition-colors duration-300"
         stroke="#191125"
         strokeLinecap="round"
         strokeMiterlimit={3.964}
@@ -138,6 +148,7 @@ function KeyboardSvg(props) {
       />
       <path
         fill="#F7C337"
+        className="group-hover:fill-purple transition-colors duration-300"
         stroke="#191125"
         strokeLinecap="round"
         strokeMiterlimit={3.964}
@@ -146,6 +157,7 @@ function KeyboardSvg(props) {
       />
       <path
         fill="#D9BFFF"
+        className="group-hover:fill-yellow transition-colors duration-300"
         stroke="#191125"
         strokeLinecap="round"
         strokeMiterlimit={3.964}
@@ -154,6 +166,7 @@ function KeyboardSvg(props) {
       />
       <path
         fill="#F7C337"
+        className="group-hover:fill-purple transition-colors duration-300"
         stroke="#191125"
         strokeLinecap="round"
         strokeMiterlimit={3.964}
@@ -162,6 +175,7 @@ function KeyboardSvg(props) {
       />
       <path
         fill="#D9BFFF"
+        className="group-hover:fill-yellow transition-colors duration-300"
         stroke="#191125"
         strokeLinecap="round"
         strokeMiterlimit={3.964}
