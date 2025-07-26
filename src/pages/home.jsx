@@ -133,6 +133,9 @@ function Home() {
                   <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors ">
                     SQL Database
                   </p>
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors ">
+                    API
+                  </p>
                 </div>
                 <p className="!text-black/60 group text-balance md:text-lg 2xl:text-xl lg:max-w-3/4">
                   Built from scratch, Shorl is a url shortener website powered
@@ -200,6 +203,10 @@ function Home() {
                   Concurro is a mobile study companion application built with{" "}
                   <span className="font-bold !text-black/60 transition-colors group-hover:!text-black">
                     react native
+                  </span>{" "}
+                  and{" "}
+                  <span className="font-bold !text-black/60 transition-colors group-hover:!text-black">
+                    typescript
                   </span>
                   , designed to help Iranian students to prep smarter for
                   university entrance exam with intuitive performance tracking,
@@ -303,7 +310,9 @@ function Home() {
                   <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors ">
                     Tailwind
                   </p>
-
+                  <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors ">
+                    API
+                  </p>
                   <p className="border-2 border-black/60 hover:border-black px-4 py-1 !text-black/60 hover:!text-black transition-colors ">
                     UI / UX
                   </p>
