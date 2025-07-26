@@ -33,8 +33,10 @@ function Home() {
               </p>
             </hgroup>
             <div className="flex gap-4">
-              <Link className="bg-yellow ">Contact Me</Link>
-              <Link>Projects</Link>
+              <Link className="bg-yellow " href="#contact">
+                Contact Me
+              </Link>
+              <Link href="#projects">Projects</Link>
             </div>
           </div>
           <div className="self-center scale-[80%] sm:scale-90 lg:scale-100 xl:scale-110 2xl:scale-[120%] group">
@@ -43,6 +45,7 @@ function Home() {
         </section>
 
         <section
+          id="projects"
           className="xl:mx-8 2xl:mx-16"
           aria-labelledby="projects-section-title"
         >
@@ -343,6 +346,7 @@ function Home() {
         </section>
 
         <section
+          id="about"
           className="xl:mx-auto bg-yellow border-2 border-black shadow w-full space-y-4 md:flex md:items-start md:justify-between md:gap-8 px-4 py-8 xl:w-2/3"
           aria-labelledby="about-section-title"
         >
@@ -401,6 +405,7 @@ function Home() {
         </section>
 
         <section
+          id="contact"
           className="xl:mx-auto bg-purple border-2 border-black shadow w-full space-y-4 md:space-y-8 px-4 py-8 xl:w-2/3 -mt-8 md:-mt-16 xl:-mt-32"
           aria-labelledby="contact-section-title"
         >

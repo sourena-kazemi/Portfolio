@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Button from "./button";
 import Logo from "./logo";
+import Link from "./link";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,7 +28,9 @@ function Navbar() {
             Contact
           </a>
         </div>
-        <Button className="hidden sm:block">Resume</Button>
+        <Link className="hidden sm:block" href="#" target="_blank">
+          Resume
+        </Link>
       </nav>
       <div
         className={`flex flex-col items-center gap-16 justify-center absolute bg-white w-full h-full transition-[left] z-10 ${
