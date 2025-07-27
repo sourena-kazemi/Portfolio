@@ -404,7 +404,8 @@ function Home() {
         >
           <img
             className="w-full max-w-50 border-2 border-black bg-purple mx-auto self-center"
-            src="./profile.png"
+            src="./profile.jpg"
+            alt="picture of Sourena Kazemi"
           ></img>
           <div className="space-y-4">
             <h2
