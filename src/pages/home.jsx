@@ -104,7 +104,7 @@ function Home() {
               </div>
               <div className="bg-purple shadow transition-all hover:shadow-hover hover:-translate-0.5 active:shadow-none active:translate-1 border-2 border-black w-full md:max-w-3/4 lg:max-w-2/5">
                 <img
-                  src="/projects/Norasil.png"
+                  src="./projects/Norasil.png"
                   alt="showcase of the norasil project"
                 />
               </div>
@@ -169,7 +169,7 @@ function Home() {
               </div>
               <div className="bg-purple shadow transition-all hover:shadow-hover hover:-translate-0.5 active:shadow-none active:translate-1 border-2 border-black w-full md:max-w-3/4 lg:max-w-2/5">
                 <img
-                  src="/projects/Shorl.png"
+                  src="./projects/Shorl.png"
                   alt="showcase of the Shorl project"
                 />
               </div>
@@ -230,7 +230,7 @@ function Home() {
               </div>
               <div className="bg-purple shadow transition-all hover:shadow-hover hover:-translate-0.5 active:shadow-none active:translate-1 border-2 border-black w-full md:max-w-3/4 lg:max-w-2/5">
                 <img
-                  src="/projects/Concurro.png"
+                  src="./projects/Concurro.png"
                   alt="showcase of the Concurro project"
                 />
               </div>
@@ -284,7 +284,7 @@ function Home() {
               </div>
               <div className="bg-purple shadow transition-all hover:shadow-hover hover:-translate-0.5 active:shadow-none active:translate-1 border-2 border-black w-full md:max-w-3/4 lg:max-w-2/5">
                 <img
-                  src="/projects/Open-Studio.png"
+                  src="./projects/Open-Studio.png"
                   alt="showcase of the Open Studio project"
                 />
               </div>
@@ -337,7 +337,7 @@ function Home() {
               </div>
               <div className="bg-purple shadow transition-all hover:shadow-hover hover:-translate-0.5 active:shadow-none active:translate-1 border-2 border-black w-full md:max-w-3/4 lg:max-w-2/5">
                 <img
-                  src="/projects/Wikilator.png"
+                  src="./projects/Wikilator.png"
                   alt="showcase of the Wikilator project"
                 />
               </div>
@@ -419,7 +419,7 @@ function Home() {
             <div className="space-y-4 md:grow">
               <div className="border-2 border-black px-4 py-1 flex items-center gap-2 md:max-w-xl md:ml-auto @container hover:bg-yellow transition-all hover:shadow hover:-translate-1 active:shadow-none active:translate-0">
                 <img
-                  src="/mail.svg"
+                  src="./mail.svg"
                   alt="email icon"
                   className="border-2 border-black p-0.5 hidden @2xs:block"
                 />
@@ -429,7 +429,7 @@ function Home() {
               </div>
               <div className="border-2 border-black px-4 py-1 flex items-center gap-2 md:max-w-xl md:ml-auto hover:bg-yellow transition-all hover:shadow hover:-translate-1 active:shadow-none active:translate-0">
                 <img
-                  src="/linkedin.svg"
+                  src="./linkedin.svg"
                   alt="email icon"
                   className="border-2 border-black p-0.5"
                 />
@@ -439,7 +439,7 @@ function Home() {
             <div className="space-y-4 md:grow mt-4 md:mt-0">
               <div className="border-2 border-black px-4 py-1 flex items-center gap-2 md:max-w-xl hover:bg-yellow transition-all hover:shadow hover:-translate-1 active:shadow-none active:translate-0">
                 <img
-                  src="/github.svg"
+                  src="./github.svg"
                   alt="email icon"
                   className="border-2 border-black p-0.5"
                 />
@@ -447,7 +447,7 @@ function Home() {
               </div>
               <div className="border-2 border-black px-4 py-1 flex items-center gap-2 md:max-w-xl hover:bg-yellow transition-all hover:shadow hover:-translate-1 active:shadow-none active:translate-0">
                 <img
-                  src="/blog.svg"
+                  src="./blog.svg"
                   alt="email icon"
                   className="border-2 border-black p-0.5"
                 />
