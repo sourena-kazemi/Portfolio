@@ -98,8 +98,15 @@ function Home() {
                   .
                 </p>
                 <div className="flex gap-4 flex-wrap">
-                  <Link>Live Website</Link>
-                  <Link>Figma Design</Link>
+                  <Link href="https://norasil.pt/en" target="_blank">
+                    Live Website
+                  </Link>
+                  <Link
+                    href="https://www.figma.com/design/31WEDl1FZA05wkqcIeFoyy/norasil.pt?m=auto&t=jskcZd3wrPVg6KPR-1"
+                    target="_blank"
+                  >
+                    Figma Design
+                  </Link>
                 </div>
               </div>
               <div className="bg-purple shadow transition-all hover:shadow-hover hover:-translate-0.5 active:shadow-none active:translate-1 border-2 border-black w-full md:max-w-3/4 lg:max-w-2/5">
@@ -163,8 +170,18 @@ function Home() {
                   .
                 </p>
                 <div className="flex gap-4 flex-wrap">
-                  <Link>Code On Github</Link>
-                  <Link>System Design Document</Link>
+                  <Link
+                    href="https://github.com/sourena-kazemi/Shorl/blob/main/README.md"
+                    target="_blank"
+                  >
+                    System Design Document
+                  </Link>
+                  <Link
+                    href="https://github.com/sourena-kazemi/Shorl"
+                    target="_blank"
+                  >
+                    Code On Github
+                  </Link>
                 </div>
               </div>
               <div className="bg-purple shadow transition-all hover:shadow-hover hover:-translate-0.5 active:shadow-none active:translate-1 border-2 border-black w-full md:max-w-3/4 lg:max-w-2/5">
@@ -224,8 +241,18 @@ function Home() {
                   .
                 </p>
                 <div className="flex gap-4 flex-wrap">
-                  <Link>Install Application</Link>
-                  <Link>Code On Github</Link>
+                  <Link
+                    href="https://github.com/sourena-kazemi/Concurro/releases"
+                    target="_blank"
+                  >
+                    Install Application
+                  </Link>
+                  <Link
+                    href="https://github.com/sourena-kazemi/Concurro"
+                    target="_blank"
+                  >
+                    Code On Github
+                  </Link>
                 </div>
               </div>
               <div className="bg-purple shadow transition-all hover:shadow-hover hover:-translate-0.5 active:shadow-none active:translate-1 border-2 border-black w-full md:max-w-3/4 lg:max-w-2/5">
@@ -277,9 +304,24 @@ function Home() {
                   tone that invites new developers to join.
                 </p>
                 <div className="flex gap-4 flex-wrap">
-                  <Link>Live Website</Link>
-                  <Link>Code On Github</Link>
-                  <Link>Figma Design</Link>
+                  <Link
+                    href="https://openstudiocorp.vercel.app/"
+                    target="_blank"
+                  >
+                    Live Website
+                  </Link>
+                  <Link
+                    href="https://github.com/OpenStudioCorp/NewOpenStudioCorpSite"
+                    target="_blank"
+                  >
+                    Code On Github
+                  </Link>
+                  <Link
+                    href="https://www.figma.com/design/8pTFPKfAOzuOrBPGcqUBuh/Open-Studio?m=auto&t=jskcZd3wrPVg6KPR-1"
+                    target="_blank"
+                  >
+                    Figma Design
+                  </Link>
                 </div>
               </div>
               <div className="bg-purple shadow transition-all hover:shadow-hover hover:-translate-0.5 active:shadow-none active:translate-1 border-2 border-black w-full md:max-w-3/4 lg:max-w-2/5">
@@ -331,8 +373,18 @@ function Home() {
                   and tailwind and delivers a clean and minimal UI.
                 </p>
                 <div className="flex gap-4 flex-wrap">
-                  <Link>Code On Github</Link>
-                  <Link>Figma Design</Link>
+                  <Link
+                    href="https://github.com/sourena-kazemi/Wikilator"
+                    target="_blank"
+                  >
+                    Code On Github
+                  </Link>
+                  <Link
+                    href="https://www.figma.com/design/PS3dVJG51xSkPceXSRx9tx/Wikilator?m=auto&t=jskcZd3wrPVg6KPR-6"
+                    target="_blank"
+                  >
+                    Figma Design
+                  </Link>
                 </div>
               </div>
               <div className="bg-purple shadow transition-all hover:shadow-hover hover:-translate-0.5 active:shadow-none active:translate-1 border-2 border-black w-full md:max-w-3/4 lg:max-w-2/5">
@@ -400,7 +452,7 @@ function Home() {
               </span>{" "}
               services.
             </p>
-            <Link>Get In Touch</Link>
+            <Link href="#contact">Get In Touch</Link>
           </div>
         </section>
 
@@ -423,36 +475,34 @@ function Home() {
                   alt="email icon"
                   className="border-2 border-black p-0.5 hidden @2xs:block"
                 />
-                <p className="font-bold @2xs:font-normal">
-                  kazemisourena@gmail.com
-                </p>
+                <p>kazemisourena@gmail.com</p>
               </div>
-              <div className="border-2 border-black px-4 py-1 flex items-center gap-2 md:max-w-xl md:ml-auto hover:bg-yellow transition-all hover:shadow hover:-translate-1 active:shadow-none active:translate-0">
+              <a
+                href="https://www.linkedin.com/in/sourena-kazemi"
+                target="_blank"
+                className="border-2 border-black px-4 py-1 flex items-center gap-2 md:max-w-xl md:ml-auto hover:bg-yellow transition-all hover:shadow hover:-translate-1 active:shadow-none active:translate-0"
+              >
                 <img
                   src="./linkedin.svg"
                   alt="email icon"
                   className="border-2 border-black p-0.5"
                 />
-                <a href="#">LinkedIn</a>
-              </div>
+                <p>LinkedIn</p>
+              </a>
             </div>
             <div className="space-y-4 md:grow mt-4 md:mt-0">
-              <div className="border-2 border-black px-4 py-1 flex items-center gap-2 md:max-w-xl hover:bg-yellow transition-all hover:shadow hover:-translate-1 active:shadow-none active:translate-0">
+              <a
+                href="https://github.com/sourena-kazemi"
+                target="_blank"
+                className="border-2 border-black px-4 py-1 flex items-center gap-2 md:max-w-xl hover:bg-yellow transition-all hover:shadow hover:-translate-1 active:shadow-none active:translate-0"
+              >
                 <img
                   src="./github.svg"
                   alt="email icon"
                   className="border-2 border-black p-0.5"
                 />
-                <a href="#">Github</a>
-              </div>
-              <div className="border-2 border-black px-4 py-1 flex items-center gap-2 md:max-w-xl hover:bg-yellow transition-all hover:shadow hover:-translate-1 active:shadow-none active:translate-0">
-                <img
-                  src="./blog.svg"
-                  alt="email icon"
-                  className="border-2 border-black p-0.5"
-                />
-                <a href="#">Blog</a>
-              </div>
+                <p>Github</p>
+              </a>
             </div>
           </div>
         </section>

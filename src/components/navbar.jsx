@@ -28,7 +28,11 @@ function Navbar() {
             Contact
           </a>
         </div>
-        <Link className="!hidden sm:!inline-block" href="#" target="_blank">
+        <Link
+          className="!hidden sm:!inline-block"
+          href="https://drive.google.com/file/d/1nLxmSPe8FlCDhicpCImzHcoAKkv2zXh8/view?usp=sharing"
+          target="_blank"
+        >
           Resume
         </Link>
       </nav>
@@ -46,7 +50,12 @@ function Navbar() {
         <a href="#contact" className="font-bold" onClick={() => toggleMenu()}>
           Contact
         </a>
-        <a href="#" className="font-bold" onClick={() => toggleMenu()}>
+        <a
+          href="https://drive.google.com/file/d/1nLxmSPe8FlCDhicpCImzHcoAKkv2zXh8/view?usp=sharing"
+          target="_blank"
+          className="font-bold"
+          onClick={() => toggleMenu()}
+        >
           Resume
         </a>
       </div>
