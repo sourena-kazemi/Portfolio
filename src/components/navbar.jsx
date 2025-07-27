@@ -18,32 +18,32 @@ function Navbar() {
           Menu
         </Button>
         <div className="hidden sm:flex sm:justify-around sm:grow">
-          <a href="#" className="font-bold md:text-lg 2xl:text-xl">
+          <a href="#projects" className="font-bold md:text-lg 2xl:text-xl">
             Projects
           </a>
-          <a href="#" className="font-bold md:text-lg 2xl:text-xl">
+          <a href="#about" className="font-bold md:text-lg 2xl:text-xl">
             About
           </a>
-          <a href="#" className="font-bold md:text-lg 2xl:text-xl">
+          <a href="#contact" className="font-bold md:text-lg 2xl:text-xl">
             Contact
           </a>
         </div>
-        <Link className="hidden sm:block" href="#" target="_blank">
+        <Link className="!hidden sm:!inline-block" href="#" target="_blank">
           Resume
         </Link>
       </nav>
       <div
         className={`flex flex-col items-center gap-16 justify-center absolute bg-white w-full h-full transition-[left] z-10 ${
           isMenuOpen ? "top-0 left-0" : "top-0 left-full"
-        }`}
+        } sm:hidden`}
       >
-        <a href="#" className="font-bold" onClick={() => toggleMenu()}>
+        <a href="#projects" className="font-bold" onClick={() => toggleMenu()}>
           Projects
         </a>
-        <a href="#" className="font-bold" onClick={() => toggleMenu()}>
+        <a href="#about" className="font-bold" onClick={() => toggleMenu()}>
           About
         </a>
-        <a href="#" className="font-bold" onClick={() => toggleMenu()}>
+        <a href="#contact" className="font-bold" onClick={() => toggleMenu()}>
           Contact
         </a>
         <a href="#" className="font-bold" onClick={() => toggleMenu()}>
