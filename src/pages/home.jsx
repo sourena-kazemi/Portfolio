@@ -402,7 +402,10 @@ function Home() {
           className="xl:mx-auto bg-yellow border-2 border-black shadow w-full space-y-4 md:flex md:items-start md:justify-between md:gap-8 px-4 py-8 xl:w-2/3"
           aria-labelledby="about-section-title"
         >
-          <div className="h-50 w-full max-w-lg border-2 border-black bg-purple mx-auto"></div>
+          <img
+            className="w-full max-w-50 border-2 border-black bg-purple mx-auto self-center"
+            src="./profile.png"
+          ></img>
           <div className="space-y-4">
             <h2
               className="!font-header font-bold text-2xl sm:text-3xl xl:text-4xl 2xl:text-5xl"
