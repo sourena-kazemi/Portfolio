@@ -403,7 +403,7 @@ function Home() {
           aria-labelledby="about-section-title"
         >
           <img
-            className="w-full max-w-50 border-2 border-black bg-purple mx-auto self-center"
+            className="w-full max-w-50 border-2 border-black bg-purple mx-auto transition-all hover:shadow hover:-translate-1 active:shadow-none active:translate-0"
             src="./profile.png"
             alt="picture of Sourena Kazemi"
           ></img>
